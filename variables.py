@@ -16,7 +16,7 @@ a,b,c=10,20,30
 print("a =",a)
 print("b =",b)
 print("c =",c)
-x=y=z=500
+x=y=z=100
 print("p =",p)
 print("q =",q)
 print("r =",r)

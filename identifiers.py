@@ -14,6 +14,14 @@ print(hello)
 print(grade)
 print(student_marks)
 #Lab:01
+#Task:02
+#Program:invalid identifiers
+2value=5
+value_2=20
+_hidden="no"
+class=5
+my-var
+#Lab:01
 #Task:03
 #Program:Case Sensitivity of Identifiers
 Sum=45
