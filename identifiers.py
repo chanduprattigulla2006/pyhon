@@ -21,6 +21,15 @@ value_2=20
 _hidden="no"
 class=5
 my-var
+#Here 2value is an invalid variable because its sarting with digit
+#value_2 is valid variable beacause its following identifier naming rules
+#_hidden is valid variable
+#class is an invalid variable because its a keyword
+#may-var is invalid variable because it contains a hyphen
+#MyClass is valid variable
+# total$ is inavlid variable because it contains '$' symbol
+#ouput
+#SyntaxError: invalid syntax
 #Lab:01
 #Task:03
 #Program:Case Sensitivity of Identifiers

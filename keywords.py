@@ -15,8 +15,8 @@ print(keyword.iskeyword("or"))
 #Lab:02
 #Task:03
 #Keywords as Variable names
-#for=5
-#True=10
+for=5
+True=10
 #for=5
 #   ^
 #SyntaxError: invalid syntax

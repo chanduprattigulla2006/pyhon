@@ -15,9 +15,20 @@ print("product=",a*b)
 print("division=",a//b)
 #Lab:05
 #Task:03
-#Program:Multiple assignment at a same time
-x,y,z=map(int,input("Enter x,y,z values").split())
-print("x+y+z=",(x+y+z))
+#Program:Output Formatting Methods
+name="Ram Sai" 
+age=18
+#Comma separate
+print("Name:",name,",Age:",age)
+#str.format()
+print("Name :{} ,Age : {}".format(name,age))
+#f-string
+print(f"Name:{name}, Age:{age}")
+#Lab:05
+#Task:04
+#Program:Taking various inputs using single input function
+n1,n2,n3=map(int,input("Enter three numbers:").split())
+print("Sum of three numbers is:",n1+n2+n3)
 #Lab:05
 #Task:Challenge
 #Program:Average of subject marks
